@@ -13,6 +13,9 @@
 		0422BFF02199CBF400AE3F80 /* vision_app_dev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0422BFEE2199CBF400AE3F80 /* vision_app_dev.xcdatamodeld */; };
 		0422BFF22199CC0100AE3F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0422BFF12199CC0100AE3F80 /* Assets.xcassets */; };
 		0422BFF52199CC0100AE3F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0422BFF32199CC0100AE3F80 /* LaunchScreen.storyboard */; };
+		0422C0002199D26F00AE3F80 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422BFFF2199D26F00AE3F80 /* RoundedShadowView.swift */; };
+		0422C0022199D4D200AE3F80 /* RoundedShadowbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422C0012199D4D200AE3F80 /* RoundedShadowbtn.swift */; };
+		0422C0042199D53200AE3F80 /* RoundedShadowImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422C0032199D53200AE3F80 /* RoundedShadowImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0422BFF12199CC0100AE3F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0422BFF42199CC0100AE3F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0422BFF62199CC0100AE3F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0422BFFF2199D26F00AE3F80 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		0422C0012199D4D200AE3F80 /* RoundedShadowbtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowbtn.swift; sourceTree = "<group>"; };
+		0422C0032199D53200AE3F80 /* RoundedShadowImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 		0422BFFD2199CC6000AE3F80 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0422BFFF2199D26F00AE3F80 /* RoundedShadowView.swift */,
+				0422C0012199D4D200AE3F80 /* RoundedShadowbtn.swift */,
+				0422C0032199D53200AE3F80 /* RoundedShadowImg.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0422C0002199D26F00AE3F80 /* RoundedShadowView.swift in Sources */,
+				0422C0042199D53200AE3F80 /* RoundedShadowImg.swift in Sources */,
+				0422C0022199D4D200AE3F80 /* RoundedShadowbtn.swift in Sources */,
 				0422BFEA2199CBF400AE3F80 /* CameraVC.swift in Sources */,
 				0422BFF02199CBF400AE3F80 /* vision_app_dev.xcdatamodeld in Sources */,
 				0422BFE82199CBF400AE3F80 /* AppDelegate.swift in Sources */,
